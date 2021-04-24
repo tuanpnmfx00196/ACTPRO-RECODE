@@ -33,6 +33,7 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         edtUser = (EditText) findViewById(R.id.edtUser);
         edtPass = (EditText) findViewById(R.id.edtPass);
+        btnLogin = (Button)findViewById(R.id.btnLogin);
         listUser = new ArrayList<>();
         listPassport = new ArrayList<>();
         GetListPassport();
